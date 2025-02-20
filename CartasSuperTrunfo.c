@@ -9,7 +9,8 @@
 int main() {
     // Sugestão: Defina variáveis separadas para cada atributo da cidade.
     // Exemplos de atributos: código da cidade, nome, população, área, PIB, número de pontos turísticos.
-    //Ceará, A01, Fortaleza, 2428678 hab, 312353 km², 73 B, 15 
+    //Ceará, A01, Fortaleza, 2428678 hab, 312353 km², 73 B, 15 .
+    //Rio de Janeiro, A02, Rio de Janeiro, 6.211 223, 1200 km², 354981 B, 10.
 
     // Cadastro das Cartas:
     // Sugestão: Utilize a função scanf para capturar as entradas do usuário para cada atributo.
