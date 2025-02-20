@@ -7,6 +7,7 @@
 //Teste larissa
 
 int main() {
+    printf ("Estado: %s\n", "Ceará");
     // Sugestão: Defina variáveis separadas para cada atributo da cidade.
     // Exemplos de atributos: código da cidade, nome, população, área, PIB, número de pontos turísticos.
     //Ceará, A01, Fortaleza, 2428678 hab, 312353 km², 73 B, 15 .
