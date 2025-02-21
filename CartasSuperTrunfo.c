@@ -13,10 +13,10 @@ int main() {
     printf ("Estado: %s\n", "A");
     printf ("Código da carta: %s\n", "A01");
     printf ("Nome da cidade: %s\n", "Fortaleza");
-    printf ("População: %d\n", '2428678');
-    printf ("Área: %f\n", "312.353");
-    printf ("PIB: %f\n", "73.000.000.00");
-    printf ("Número de pontos turísticos: %d.\n", "15");
+    printf ("População: %f.\n", 2.428678);
+    printf ("Área: %f.\n", 312.353);
+    printf ("PIB: %f.\n", 73.000000);
+    printf ("Número de pontos turísticos: %d.\n", 15);
     // Sugestão: Defina variáveis separadas para cada atributo da cidade.
     // Exemplos de atributos: código da cidade, nome, população, área, PIB, número de pontos turísticos.
     //Ceará, A01, Fortaleza, 2428678 hab, 312353 km², 73 B, 15 .
