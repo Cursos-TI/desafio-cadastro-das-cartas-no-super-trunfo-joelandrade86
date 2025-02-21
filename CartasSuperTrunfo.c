@@ -2,35 +2,35 @@
 
 
 
-int main() {                            //informações salvas da Carta 1 e 2
+int main() {                            // Carta 1 e 2
    printf("Novo commit\n");
     //carta 1
-    char estado2 = 'B';                   // Aqui eu insiro as variáveis das duas cartas, dou um espaçamento para ficar menos bagunçado e mais legível.
-    char estado = 'A';                    // Estado sendo representado por uma letra de A a H.
+    char estado2 = 'B';                   
+    char estado = 'A';                    
                                           
-    char codigo2[5] = "B02";               // Código vai ser a letra escolhida para o estado + um número de 01 a 04. ex: A01, B02 ..
+    char codigo2[5] = "B02";               
     char codigo[5] = "A01";
     
-    char nome2[20]  = "Fortaleza";            // Nome das cidades.
+    char nome2[20]  = "Fortaleza";            
     char nome[20] = "Rio de Janeiro"; 
     
-    float area2 = 312.4;                  //Área em km² usando float .              
+    float area2 = 312.4;                                
     float area = 43.750; 
 
-    float pib = 73;                   // PIB (produto interno bruto) usando float.
+    float pib = 73;                   
     float pib2= 394;
                                        
-    int pontosturisticos= 15;             // Quantidades de pontos turísticos das cidades.
+    int pontosturisticos= 15;             
     int pontosturisticos2= 20;
     
-    int populacao = 6200000;            //População das cidades (os dados sempre mudam, é apenas uma estimativa da quantidade de pessoas).
+    int populacao = 6200000;            
     int populacao2= 2400000;   
 
-    printf("Cartas Super Trunfo\n");                       //Print F com todas as informações das cartas
+    printf("Cartas Super Trunfo\n");                       
     printf("Carta 1\n");                             
     printf("Estado: %c\n", estado);
     
-    printf("Nome da Cidade: %s\n", nome);                  // Variáveis com seus demais especificadores !
+    printf("Nome da Cidade: %s\n", nome);                  
    
     printf("Código: %s\n", codigo);
      
