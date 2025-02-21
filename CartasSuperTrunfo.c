@@ -3,7 +3,7 @@
 
 
 int main() {                            // Carta 1 e 2
-   printf("Novo commit\n");
+   printf("\n");
     //carta 1
     char estado2 = 'B';                   
     char estado = 'A';                    
