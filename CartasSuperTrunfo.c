@@ -49,9 +49,9 @@ int main() {                            //informações salvas da Carta 1 e 2
 
     printf ("Pontos Turísticos: %d\n", pontosturisticos);
 
-    printf("Densidade Populacional: %.fkm²\n", divis);
+    printf("Densidade Populacional: %.2f hab_km²\n", divis);
 
-    printf("PIB per Capita: %.f mil\n", divis2);
+    printf("PIB per Capita: %.2f reais\n", divis2);
 
     printf("\n");
      
@@ -73,9 +73,9 @@ int main() {                            //informações salvas da Carta 1 e 2
 
     printf ("Pontos Turísticos: %d\n", pontosturisticos2);
 
-    printf("Densidade Populacional: %.fkm²\n", divis3);
+    printf("Densidade Populacional: %.2f hab_km²\n", divis3);
 
-    printf("PIB per Capita: %.f mil\n", divis4);
+    printf("PIB per Capita: %.2f reais\n", divis4);
 
     return 0;
 
