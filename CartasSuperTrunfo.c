@@ -20,7 +20,7 @@ int main() {                            //informações salvas da Carta 1 e 2
     float pib = 73;                   // PIB (produto interno bruto) usando float.
     float pib2= 394;
 
-    float divis, divis2, divis3, divis4;    // variavel da divisão
+    //float divis, divis2, divis3, divis4;    // variavel da divisão
                                        
     int pontosturisticos= 15;             // Quantidades de pontos turísticos das cidades.
     int pontosturisticos2= 20;
@@ -28,10 +28,17 @@ int main() {                            //informações salvas da Carta 1 e 2
     int populacao = 6200000;            //População das cidades (os dados sempre mudam, é apenas uma estimativa da quantidade de pessoas).
     int populacao2= 2400000;   
 
-    divis = populacao / area;           // divisão da população + area
-    divis2 = populacao / pib;           // divisão da população + pib
-    divis3 = populacao2 / area2;        // divisão da população + area
-    divis4  = populacao2 / pib2;        // divisão da população + pib
+    float desindade = 0;
+    float desindade2 = 0;
+
+    float pibpercapita = 0;
+    float pibpercapita2 = 0;
+
+
+    desindade = populacao / area;           // divisão da população + area
+    pibpercapita = populacao / pib;           // divisão da população + pib
+    desindade2 = populacao2 / area2;        // divisão da população + area
+    pibpercapita2  = populacao2 / pib2;        // divisão da população + pib
     
     printf("Cartas Super Trunfo\n");                       //Print F com todas as informações das cartas
     printf("Carta 1\n");                             
@@ -49,9 +56,9 @@ int main() {                            //informações salvas da Carta 1 e 2
 
     printf ("Pontos Turísticos: %d\n", pontosturisticos);
 
-    printf("Densidade Populacional: %.2f hab_km²\n", divis);
+    printf("Densidade Populacional: %.f km²\n", desindade);
 
-    printf("PIB per Capita: %.2f reais\n", divis2);
+    printf("PIB per Capita: %.f mil\n", pibpercapita);
 
     printf("\n");
      
@@ -73,9 +80,9 @@ int main() {                            //informações salvas da Carta 1 e 2
 
     printf ("Pontos Turísticos: %d\n", pontosturisticos2);
 
-    printf("Densidade Populacional: %.2f hab_km²\n", divis3);
+    printf("Densidade Populacional: %.f km²\n", desindade2);
 
-    printf("PIB per Capita: %.2f reais\n", divis4);
+    printf("PIB per Capita: %.f mil\n", pibpercapita2);
 
     return 0;
 
