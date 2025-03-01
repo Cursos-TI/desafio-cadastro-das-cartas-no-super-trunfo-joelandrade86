@@ -45,7 +45,7 @@ int main() {                            //informações salvas da Carta 1 e 2
     
 
     printf("Cartas Super Trunfo\n");                       //Print F com todas as informações das cartas
-    printf("Carta 1\n");                             
+    printf("Carta 1\n");                             // COMEÇO DA PRIMEIRA CARTA
     printf("Estado: %c\n", estado);
     
     printf("Nome da Cidade: %s\n", nome);                  // Variáveis com seus demais especificadores !
@@ -68,7 +68,7 @@ int main() {                            //informações salvas da Carta 1 e 2
 
     printf("\n");
      
-    printf("Carta 2\n");
+    printf("Carta 2\n"); // COMEÇO DA SEGUNDA CARTA 2
 
     printf("Estado: %c\n", estado2);
     
@@ -88,12 +88,16 @@ int main() {                            //informações salvas da Carta 1 e 2
 
     printf("PIB per Capita: %.f mil\n", pibpercapita2);
 
-    printf("Super Poder: %.f\n", populacao2 + area2 + pib2 + pontosturisticos2 + desindade2 + pibpercapita2);
+    printf("Super Poder: %.f\n", populacao2 + area2 + pib2 + pontosturisticos2 + desindade2 + pibpercapita2); //SUPER PODER
+
+    printf("\n"); // COMPARAÇÃO DE CARTAS
+
+    printf("Comparação de Cartas:\n");  
 
     printf("\n");
-    printf("Comparação de Cartas:\n");  
-    printf("\n");
-    printf("Resultado 1, quem vence carta 01 - Resultado 0, quem vence carta 02\n");  
+
+    printf("Resultado 1, quem vence carta 01 - Resultado 0, quem vence carta 02\n");  //RESULTADO DAS COMPARAÇÃO DAS CARTAS 01 E 02
+
     printf("\n");
     printf("População: %d\n", populacao > populacao2);
     printf("Area: %d\n", area > area2);
