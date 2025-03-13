@@ -10,14 +10,12 @@ int main(){
     float pib, pib2;
     int pontoTutisticos, pontoTuristicos2, carta1, carta2;
     float densidade, densidade2;
-    double pibPercapita = pib/populacao;
-    double pibPercapita2 = pib2/populacao2;
+    double pibPercapita;
+    double pibPercapita2;
 
     superpoder = populacao+area+pib+pontoTutisticos+pibPercapita+densidade;
     superpoder2 = populacao2+area2+pib2+pontoTuristicos2+pibPercapita2+densidade2;
-    densidade = populacao/area;
-    densidade2 = populacao2/area2;
-
+    
     printf("***SUPER TRUFO***\n");
 
     printf("\n");
@@ -75,7 +73,7 @@ int main(){
     printf("PIB: %.2f Bilhões\n",pib);
     printf("Número de Pontos Turísticos: %d\n",pontoTutisticos);
     printf("Densidade Populacional: %.2f hab/km²\n",populacao/area);
-    printf("PIB per Capita: %f reais\n",pibPercapita);
+    printf("PIB per Capita: %f reais\n",pib/populacao);
 
     printf("\n");
     printf("Estado: %c\n",estado2);
@@ -86,7 +84,7 @@ int main(){
     printf("PIB: %.2f Bilhões de reais\n",pib2);
     printf("Número de Pontos Turísticos: %d\n",pontoTuristicos2);
     printf("Densidade Populacional: %.2f hab/km²\n",populacao2/area2);
-    printf("PIB per Capita: %f reais\n",pibPercapita2);
+    printf("PIB per Capita: %f reais\n",pib2/populacao2);
 
     printf("\n");
     printf("Comparação de Cartas:\n");  
