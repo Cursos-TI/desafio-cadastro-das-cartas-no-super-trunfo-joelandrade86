@@ -82,7 +82,7 @@ int main() {                            //informações salvas da Carta 1 e 2
 
         default:
          printf("Opção inválida. Tente novamente.\n");
-         break; 
+         return 0; 
       }       
 
       switch (opcao2) {
@@ -108,6 +108,7 @@ int main() {                            //informações salvas da Carta 1 e 2
              
         default:
           printf("Opção inválida. Tente novamente.\n");
+          return 0;
       }
         
           resultado = primeiroAtributo + segundoAtributo;
@@ -155,7 +156,7 @@ int main() {                            //informações salvas da Carta 1 e 2
 
         default:
          printf("Opção inválida. Tente novamente.\n");
-         break; 
+         return 0;; 
       }         
 
       switch (opcao4) {
@@ -181,7 +182,7 @@ int main() {                            //informações salvas da Carta 1 e 2
              
         default:
           printf("Opção inválida. Tente novamente.\n");
-          break; 
+          return 0;; 
       }
 
                 resultado2 = primeiroAtributo2 + segundoAtributo2;
